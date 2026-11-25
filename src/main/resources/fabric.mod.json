@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "oreguide",
+  "version": "${version}",
+  "name": "Debris Guide",
+  "description": "Client-side: highlights ancient debris through walls and draws the cheapest tunnel route to it.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.oreguide.OreGuideClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
